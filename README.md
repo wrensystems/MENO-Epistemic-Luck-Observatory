@@ -1,21 +1,42 @@
-# MENO: Epistemic Luck Observatory
+<p align="center">
+  <img src=".github/assets/meno-banner.svg" alt="MENO: Epistemic Luck Observatory — orbital paths on a dark background; Python 3.11+, standard library, offline workflow" width="100%">
+</p>
 
-[Research report (PDF)](publication/report/MENO_Research_Report.pdf) ·
-[Presentation (PDF)](publication/slides/MENO_Presentation.pdf) ·
-[Editable presentation](publication/slides/MENO_Presentation.pptx)
+<h1 align="center">MENO: Epistemic Luck Observatory</h1>
 
-A local research instrument for separating **actual truth**, **information-relative
-support**, **evidential-route integrity**, and **bounded counterfactual robustness**
-in language-model responses to finite synthetic causal worlds.
+<p align="center">
+  <a href="publication/report/MENO_Research_Report.pdf"><strong>Research report (PDF)</strong></a>
+  &nbsp; · &nbsp;
+  <a href="publication/slides/MENO_Presentation.pdf"><strong>Presentation (PDF)</strong></a>
+  &nbsp; · &nbsp;
+  <a href="publication/slides/MENO_Presentation.pptx"><strong>Editable presentation</strong></a>
+</p>
+
+<p align="center">
+  <a href="#run-an-offline-demonstration">Quickstart</a> &nbsp; / &nbsp;
+  <a href="#scientific-design">Scientific design</a> &nbsp; / &nbsp;
+  <a href="#data-availability-and-reproducibility-boundary">Data &amp; reproducibility</a> &nbsp; / &nbsp;
+  <a href="#new-live-collection">Live collection</a> &nbsp; / &nbsp;
+  <a href="#code-and-licensing">Code &amp; licensing</a>
+</p>
+
+---
+
+> A local research instrument for separating **actual truth**, **information-relative
+> support**, **evidential-route integrity**, and **bounded counterfactual robustness**
+> in language-model responses to finite synthetic causal worlds.
 
 MENO asks whether a model can distinguish a conclusion that is warranted by its
 available evidence from a conclusion that merely happens to be true. It does not
 measure internal belief, consciousness or philosophical knowledge.
 
 Independent researcher: **Louis Wren Hernandez David**. Prepared November 16, 2026.
+
 Python **3.11+**, standard library only at runtime. No package installation,
 API credentials, cloud account, external downloads or network access is needed
 for the offline workflow. Git is optional for recording provenance.
+
+### Network-blocked smoke check
 
 An additional compact check blocks network connections while generating and
 exporting a fresh scripted campaign:
@@ -24,7 +45,11 @@ exporting a fresh scripted campaign:
 python -B tools/offline_smoke.py
 ```
 
+---
+
 ## Run an offline demonstration
+
+### Create, run and replay
 
 Run these commands from this folder, using a new campaign/export path each time:
 
@@ -51,6 +76,8 @@ its archived responses, recomputes scores and compares block statistics. A
 `VERIFIED` message concerns this new synthetic archive, not the historical live run.
 Expected status: `synthetic`, nine completed trials, no missing responses.
 
+### Inspect the observatory
+
 Inspect the same campaign through a read-only local interface:
 
 ```console
@@ -63,7 +90,11 @@ model perspective excludes hidden states, investigator role labels and oracle
 scores from its separate projection. This is an inspection aid, not access control
 against the investigator. Do not deploy it as an authenticated shared service.
 
+---
+
 ## Scientific design
+
+### Worlds and counterfactuals
 
 Eight named generator families cover defective sensors, dependent corroboration, stale
 evidence, causal reversal, false-premise rescue, environmental luck, conditional
@@ -72,6 +103,8 @@ false-twin (F) worlds are enriched constructions, not natural population draws.
 Exact enumeration uses rational probabilities. Oracle calculations and declared
 single-variable counterfactual witnesses are bounded certificates, not universal
 epistemic safety.
+
+### Same-information comparison
 
 Campaign C compares same-information interventions in Regime I. Exact facts and
 structured audit each receive the same frozen initial answer and the same facts,
@@ -82,6 +115,8 @@ publication and lucky-case withholding/verification. Missing/invalid outputs ear
 zero indicators in the planned-denominator endpoint. Responses are averaged within
 independent blocks before paired bootstrap analysis. Truth, cited support,
 publication coherence and route validity remain distinct measures.
+
+### Additional campaigns and limits
 
 Other implemented campaigns support instrument controls, initial observability,
 information acquisition and generalization. Adaptive verification is reserved and
@@ -94,7 +129,11 @@ share structure. The separate repair intervention was not tested in the reported
 same-information live suite; its implementation is not evidence of a measured
 repair benefit.
 
+---
+
 ## Data availability and reproducibility boundary
+
+### Historical results
 
 The historical report describes 16 planned blocks, 14 launched/completed blocks,
 126 accepted responses out of 144 planned requests, and a budget stop at USD
@@ -102,13 +141,16 @@ The historical report describes 16 planned blocks, 14 launched/completed blocks,
 conditions; audit minus facts was 0.0. These are **reported historical results**,
 not observations generated or independently re-scored during this release.
 
-**The original raw 126 responses, invocation journals, frozen campaign/suite
-archives and standalone historical replay export were not present in the supplied
-source snapshot and are not included here.** Consequently this public package
-supports instrument verification, deterministic world construction and fresh
-synthetic replay, but not independent raw-response reproduction of the live
-numerical findings. Selected response excerpts in the manuscript are not a
-substitute for the full raw corpus. No data access or release date is promised.
+> [!IMPORTANT]
+> **The original raw 126 responses, invocation journals, frozen campaign/suite
+> archives and standalone historical replay export were not present in the supplied
+> source snapshot and are not included here.** Consequently this public package
+> supports instrument verification, deterministic world construction and fresh
+> synthetic replay, but not independent raw-response reproduction of the live
+> numerical findings. Selected response excerpts in the manuscript are not a
+> substitute for the full raw corpus. No data access or release date is promised.
+
+### Verify the reported accounting
 
 The public `data/reported_suite_summary.json` transcribes the checked-in report's
 aggregate settings, all 16 planned seeds/ledger rows, costs and reported ceiling
@@ -131,6 +173,8 @@ the historical study. See [data availability](data/README.md),
 [prospective protocol](docs/technical/PROTOCOL.md) and
 [release disclosure](RELEASE_DISCLOSURE.md).
 
+---
+
 ## New live collection
 
 Offline is the default. A live model configuration requires a frozen protocol,
@@ -147,7 +191,11 @@ replay; world seeds do not seed provider generation. Uncertain attempts stop
 collection and retain reservations. Do not bypass source guards or edit old evidence.
 Disclosure-reviewed local export is separate from permission to publish data.
 
+---
+
 ## Code and licensing
+
+### Source and provenance
 
 `meno/` supplies the public CLI. `research_lab/` contains the MENO scientific
 instrument and only the generic execution, storage, analysis and provider modules
@@ -161,10 +209,14 @@ earlier study scaffolding, were reused from preexisting work. This standalone
 package is not a claim that all its infrastructure was first created during the
 research sprint. Precise first-creation dates are not established by this release.
 
+### Licensing
+
 **License unspecified.** No license file was present in the source snapshot. This
 release does not grant an open-source license or silently add reuse permissions.
 Contact the author to clarify licensing before redistribution or reuse beyond
 applicable legal permissions.
+
+### Rebuild the release bundle
 
 To rebuild the file-hash inventory and ZIP after adding publication artifacts:
 
@@ -174,4 +226,3 @@ python -B tools/build_bundle.py --out ../MENO_Code.zip
 
 The output ZIP must be outside this folder. Rebuilding does not run experiments,
 publish files or change repository visibility.
-

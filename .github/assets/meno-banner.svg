@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="340" viewBox="0 0 1280 340" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">MENO: Epistemic Luck Observatory</title>
+  <desc id="desc">A dark observatory graphic with cyan and violet orbital paths. Python 3.11+, standard library runtime, offline workflow.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1280" y2="340" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#080F20"/>
+      <stop offset="0.55" stop-color="#111B35"/>
+      <stop offset="1" stop-color="#0A1325"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0" cy="0" r="1" gradientTransform="translate(1010 158) rotate(90) scale(240 300)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6A65D8" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#6A65D8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="orbit" x1="830" y1="30" x2="1160" y2="285" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#79E6E6"/>
+      <stop offset="0.5" stop-color="#A7A4FF"/>
+      <stop offset="1" stop-color="#79E6E6" stop-opacity="0.25"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" stroke="#8FA8D1" stroke-opacity="0.055"/>
+    </pattern>
+    <clipPath id="frame"><rect x="1" y="1" width="1278" height="338" rx="22"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <path fill="url(#background)" d="M0 0h1280v340H0z"/>
+    <path fill="url(#grid)" d="M0 0h1280v340H0z"/>
+    <path fill="url(#halo)" d="M0 0h1280v340H0z"/>
+    <path d="M64 48H92" stroke="#79E6E6" stroke-width="2"/>
+    <text x="104" y="52" fill="#A1B2CC" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" letter-spacing="2.5">RESEARCH INSTRUMENT</text>
+    <text x="60" y="166" fill="#F0F5FF" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="100" font-weight="700" letter-spacing="8">MENO</text>
+    <text x="66" y="206" fill="#B1C1DB" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="500" letter-spacing="3.6">EPISTEMIC LUCK OBSERVATORY</text>
+    <g font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="500">
+      <rect x="64" y="258" width="120" height="31" rx="15.5" fill="#79E6E6" fill-opacity="0.08" stroke="#79E6E6" stroke-opacity="0.25"/>
+      <circle cx="82" cy="273.5" r="3" fill="#79E6E6"/>
+      <text x="94" y="278" fill="#C7F3F2">Python 3.11+</text>
+      <rect x="194" y="258" width="153" height="31" rx="15.5" fill="#A7A4FF" fill-opacity="0.08" stroke="#A7A4FF" stroke-opacity="0.25"/>
+      <text x="213" y="278" fill="#DDDFFF">Standard library</text>
+      <rect x="357" y="258" width="146" height="31" rx="15.5" fill="#8FA8D1" fill-opacity="0.07" stroke="#8FA8D1" stroke-opacity="0.25"/>
+      <text x="376" y="278" fill="#CFDAED">Offline workflow</text>
+    </g>
+    <g transform="translate(1010 158)">
+      <circle r="117" stroke="#A7BBDD" stroke-opacity="0.12"/>
+      <circle r="84" stroke="#A7BBDD" stroke-opacity="0.16" stroke-dasharray="2 8"/>
+      <circle r="48" stroke="#A7BBDD" stroke-opacity="0.12"/>
+      <path d="M-155 0H155M0-155V155" stroke="#A7BBDD" stroke-opacity="0.1"/>
+      <ellipse rx="161" ry="55" transform="rotate(-32)" stroke="url(#orbit)" stroke-width="1.7"/>
+      <ellipse rx="139" ry="69" transform="rotate(48)" stroke="#A7A4FF" stroke-opacity="0.42"/>
+      <ellipse rx="110" ry="38" transform="rotate(9)" stroke="#79E6E6" stroke-opacity="0.25"/>
+      <circle r="24" fill="#79E6E6" fill-opacity="0.045" stroke="#79E6E6" stroke-opacity="0.3"/>
+      <circle r="8" fill="#B6F6F3"/>
+      <circle r="3" fill="#F2FFFF"/>
+      <circle cx="-130" cy="77" r="12" fill="#79E6E6" fill-opacity="0.09"/>
+      <circle cx="-130" cy="77" r="5" fill="#79E6E6"/>
+      <circle cx="76" cy="-89" r="11" fill="#B3ACFF" fill-opacity="0.11"/>
+      <circle cx="76" cy="-89" r="4.5" fill="#B3ACFF"/>
+      <circle cx="116" cy="28" r="4" fill="#E8C7A1"/>
+      <circle cx="-60" cy="-100" r="2" fill="#A7BBDD" fill-opacity="0.6"/>
+      <circle cx="-167" cy="-66" r="1.5" fill="#A7BBDD" fill-opacity="0.5"/>
+      <circle cx="155" cy="105" r="1.5" fill="#A7BBDD" fill-opacity="0.7"/>
+    </g>
+    <path d="M795 292H1220" stroke="#8FA8D1" stroke-opacity="0.16"/>
+    <text x="795" y="313" fill="#8C9CB7" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" letter-spacing="1.7">FINITE WORLDS</text>
+    <text x="1030" y="313" fill="#8C9CB7" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" letter-spacing="1.7">BOUNDED CERTIFICATES</text>
+  </g>
+  <rect x="1" y="1" width="1278" height="338" rx="22" stroke="#8FA8D1" stroke-opacity="0.18"/>
+</svg>

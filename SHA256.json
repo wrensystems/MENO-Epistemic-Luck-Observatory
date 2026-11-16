@@ -1,8 +1,9 @@
 {
+  ".github/assets/meno-banner.svg": "c4d5bf317c08745e7339cf63a15befb560e6a64b5ece6e31aeec0c42ef207036",
   ".gitignore": "8d2a195fd796ea9d0c0c477a3acc0e9817b4b21b4f69e743654384123e60933b",
-  "README.md": "472aefc8fa704d8eeef0d439e84e2a5ed1c3e78141eecbeaefd8148d2d21c348",
+  "README.md": "7656e651bd864d511be88f91ff413590366b8eabc5020e362d46bfe91817e599",
   "RELEASE_DISCLOSURE.md": "4da723a49db34ea5bafc0a982d3e09cd9bd3253739f170bbb2c896b4877171e7",
-  "SOURCE_PROVENANCE.json": "c13063041ac44d116484fb1ffcf8b20a518438c8eb2e31ae2dac53f6eeefca2a",
+  "SOURCE_PROVENANCE.json": "3ebfc5eb7eabc81124995d898570426452bb2d669816695a837a834366037a79",
   "data/README.md": "a5db67287c78c7d2584f0c897f88e8b207f3ec16e3b9aa4058ce25e8b6ac1b59",
   "data/reported_suite_summary.json": "ae15d077b8379863ed6cbcff0fda0ae6c330d3cf33364e4dd5265cd0c5d83341",
   "docs/technical/PROTOCOL.md": "59e1d731c298c5f8105a77b12f67b4e3f325253715e733dcecc1f93786280254",
