@@ -1,0 +1,14 @@
+{
+  "campaign": "E",
+  "regime": "I",
+  "seed": 20261117,
+  "blocks": 2,
+  "mechanisms": ["stale_evidence+dependent_corroboration"],
+  "world_options": {"source_complexity": 2, "wording_variant": "review"},
+  "repetitions": 1,
+  "threshold": "0.95",
+  "bootstrap_replicates": 2000,
+  "mode": "pilot",
+  "analysis_status": "exploratory",
+  "max_cost_usd": 0
+}

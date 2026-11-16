@@ -1,0 +1,252 @@
+{
+  "source_commit": "566b4e7a93c882dcd1532991872ffc26cc345fd6",
+  "scope": "Selected public files only; original private repository and history excluded",
+  "original_raw_archives_included": false,
+  "files": [
+    {
+      "release_path": ".gitignore",
+      "source_path": ".gitignore",
+      "source_sha256": "33d72829d00931689919deba611c0e2bcba54562e70f6cb30015a84e69308fc2",
+      "release_sha256": "8d2a195fd796ea9d0c0c477a3acc0e9817b4b21b4f69e743654384123e60933b",
+      "byte_identical": false
+    },
+    {
+      "release_path": "README.md",
+      "source_path": "README.md",
+      "source_sha256": "ea0256b59a8459b8639357c23ee43f3cee5e3c582e3e769cd3ff7ecc59b17811",
+      "release_sha256": "472aefc8fa704d8eeef0d439e84e2a5ed1c3e78141eecbeaefd8148d2d21c348",
+      "byte_identical": false
+    },
+    {
+      "release_path": "docs/technical/PROTOCOL.md",
+      "source_path": "docs/meno2/ASTRA_SUITE_PROTOCOL.md",
+      "source_sha256": "1748561e12dca33e206744d035eda735d82d05849d18713a70ddcd7c736c2760",
+      "release_sha256": "59e1d731c298c5f8105a77b12f67b4e3f325253715e733dcecc1f93786280254",
+      "byte_identical": false
+    },
+    {
+      "release_path": "examples/acquisition.json",
+      "source_path": "docs/meno2/examples/acquisition.json",
+      "source_sha256": "ad4e75a85692eb0aa18b40b94bc28399654f2ddb0bcad98978356b03cb81917e",
+      "release_sha256": "ad4e75a85692eb0aa18b40b94bc28399654f2ddb0bcad98978356b03cb81917e",
+      "byte_identical": true
+    },
+    {
+      "release_path": "examples/generalization.json",
+      "source_path": "docs/meno2/examples/generalization.json",
+      "source_sha256": "a42961d08b67a932416c1613da4111a175ad73af6230bce4b87f6a3fd1c0cc3d",
+      "release_sha256": "a42961d08b67a932416c1613da4111a175ad73af6230bce4b87f6a3fd1c0cc3d",
+      "byte_identical": true
+    },
+    {
+      "release_path": "examples/same-information.json",
+      "source_path": "docs/meno2/examples/same-information.json",
+      "source_sha256": "ff525f669a793e7cbd5c43d98fe9ccc071d8364df4506aecf86f9b20d0d988f1",
+      "release_sha256": "ff525f669a793e7cbd5c43d98fe9ccc071d8364df4506aecf86f9b20d0d988f1",
+      "byte_identical": true
+    },
+    {
+      "release_path": "research_lab/__init__.py",
+      "source_path": "research_lab/__init__.py",
+      "source_sha256": "9097c0b71692396fc2b82e369a6837d8eacb052e4a72a58a76d453fd8961350b",
+      "release_sha256": "9097c0b71692396fc2b82e369a6837d8eacb052e4a72a58a76d453fd8961350b",
+      "byte_identical": true
+    },
+    {
+      "release_path": "research_lab/analysis.py",
+      "source_path": "research_lab/analysis.py",
+      "source_sha256": "aa0f7aacfc1590b5207430503c03d109b1b1deaae4b263338e7e31168af009e9",
+      "release_sha256": "aa0f7aacfc1590b5207430503c03d109b1b1deaae4b263338e7e31168af009e9",
+      "byte_identical": true
+    },
+    {
+      "release_path": "research_lab/cli.py",
+      "source_path": "research_lab/cli.py",
+      "source_sha256": "905ff25ed24946e3d51d921c19cdf4b937d267f5f990f4de3083aabc8a13e16d",
+      "release_sha256": "905ff25ed24946e3d51d921c19cdf4b937d267f5f990f4de3083aabc8a13e16d",
+      "byte_identical": true
+    },
+    {
+      "release_path": "research_lab/engine.py",
+      "source_path": "research_lab/engine.py",
+      "source_sha256": "7494b8ce83d2bb7b4b221751bf9f7ab46c30435cac166b583cc5e3b0dd404ac5",
+      "release_sha256": "7494b8ce83d2bb7b4b221751bf9f7ab46c30435cac166b583cc5e3b0dd404ac5",
+      "byte_identical": true
+    },
+    {
+      "release_path": "research_lab/meno2_analysis.py",
+      "source_path": "research_lab/meno2_analysis.py",
+      "source_sha256": "f204308eb0e80cca56661b1e154918c46f9692484c1364d23e50ebc46b6332b4",
+      "release_sha256": "f204308eb0e80cca56661b1e154918c46f9692484c1364d23e50ebc46b6332b4",
+      "byte_identical": true
+    },
+    {
+      "release_path": "research_lab/meno2_campaign.py",
+      "source_path": "research_lab/meno2_campaign.py",
+      "source_sha256": "1606c84d6709bc3611b011511c1c5e931cd60f5123cd50adaeb6fe0c4973405a",
+      "release_sha256": "1606c84d6709bc3611b011511c1c5e931cd60f5123cd50adaeb6fe0c4973405a",
+      "byte_identical": true
+    },
+    {
+      "release_path": "research_lab/meno2_cases.py",
+      "source_path": "research_lab/meno2_cases.py",
+      "source_sha256": "8454744e0a23cfd142c1f37490c0e26743b969647339c16f54e3c79e85accaf0",
+      "release_sha256": "8454744e0a23cfd142c1f37490c0e26743b969647339c16f54e3c79e85accaf0",
+      "byte_identical": true
+    },
+    {
+      "release_path": "research_lab/meno2_cli.py",
+      "source_path": "research_lab/meno2_cli.py",
+      "source_sha256": "d1d8b23b2c9ac9d2318e39cf7347241615c585d5e3a4d1a9cafff9f014d43fcc",
+      "release_sha256": "a6f127a444e3377c54cc594f565d5494e0e1be7213086a47ad8ae8c1d45aa3b1",
+      "byte_identical": false
+    },
+    {
+      "release_path": "research_lab/meno2_observatory.py",
+      "source_path": "research_lab/meno2_observatory.py",
+      "source_sha256": "e44999256edbf0cf13d4e789d3a4cfe053bd993e084c2e7426b5147eafbc445c",
+      "release_sha256": "f7737731ab07f872eff797ae9c12d894aeb0711bd2ffca836cbd7b7d94db23b2",
+      "byte_identical": false
+    },
+    {
+      "release_path": "research_lab/meno2_oracle.py",
+      "source_path": "research_lab/meno2_oracle.py",
+      "source_sha256": "c0b67cef037fad5796112a2fb47ed13bc803d4610c2f34ac9dfc391db6828c6c",
+      "release_sha256": "c0b67cef037fad5796112a2fb47ed13bc803d4610c2f34ac9dfc391db6828c6c",
+      "byte_identical": true
+    },
+    {
+      "release_path": "research_lab/meno2_render.py",
+      "source_path": "research_lab/meno2_render.py",
+      "source_sha256": "3356beeb4e139f8688059da4ab1942ab1286dab1fe5c78e561a55203ed6306bb",
+      "release_sha256": "3356beeb4e139f8688059da4ab1942ab1286dab1fe5c78e561a55203ed6306bb",
+      "byte_identical": true
+    },
+    {
+      "release_path": "research_lab/meno2_scoring.py",
+      "source_path": "research_lab/meno2_scoring.py",
+      "source_sha256": "0cab620b8d47fbb7bf3d923eaea071d129ff09bb78d17d38441a199f3cd21e9a",
+      "release_sha256": "0cab620b8d47fbb7bf3d923eaea071d129ff09bb78d17d38441a199f3cd21e9a",
+      "byte_identical": true
+    },
+    {
+      "release_path": "research_lab/meno2_suite.py",
+      "source_path": "research_lab/meno2_suite.py",
+      "source_sha256": "1e58029710c2b65629a627eb830a7a770feffaeed1e488581048674f40fb65d7",
+      "release_sha256": "1e58029710c2b65629a627eb830a7a770feffaeed1e488581048674f40fb65d7",
+      "byte_identical": true
+    },
+    {
+      "release_path": "research_lab/meno2_worlds.py",
+      "source_path": "research_lab/meno2_worlds.py",
+      "source_sha256": "782b05bffa26ce74dcdf3adb81c9a2d87abd5b0875ca0f3ffbc96757e213ccc5",
+      "release_sha256": "782b05bffa26ce74dcdf3adb81c9a2d87abd5b0875ca0f3ffbc96757e213ccc5",
+      "byte_identical": true
+    },
+    {
+      "release_path": "research_lab/openai_provider.py",
+      "source_path": "research_lab/openai_provider.py",
+      "source_sha256": "000d42e0deb89761b5406ca9aa8501382fd373cf99acd08bf66110b9a48eac9f",
+      "release_sha256": "000d42e0deb89761b5406ca9aa8501382fd373cf99acd08bf66110b9a48eac9f",
+      "byte_identical": true
+    },
+    {
+      "release_path": "research_lab/providers.py",
+      "source_path": "research_lab/providers.py",
+      "source_sha256": "ca361dde73379acb4f9dbc2ffbde448bed660c949272d962a02eeff0f3324f59",
+      "release_sha256": "ca361dde73379acb4f9dbc2ffbde448bed660c949272d962a02eeff0f3324f59",
+      "byte_identical": true
+    },
+    {
+      "release_path": "research_lab/publication.py",
+      "source_path": "research_lab/publication.py",
+      "source_sha256": "dedf0b7621e1e1b6ca85ee7c0256f0c4c62028f8d95c90e2eb9b8fd1693f5731",
+      "release_sha256": "dedf0b7621e1e1b6ca85ee7c0256f0c4c62028f8d95c90e2eb9b8fd1693f5731",
+      "byte_identical": true
+    },
+    {
+      "release_path": "research_lab/storage.py",
+      "source_path": "research_lab/storage.py",
+      "source_sha256": "064aa4c079d589faccf968cf6ad49345dd37a22c31e1a339f58d603567fe2f6f",
+      "release_sha256": "064aa4c079d589faccf968cf6ad49345dd37a22c31e1a339f58d603567fe2f6f",
+      "byte_identical": true
+    },
+    {
+      "release_path": "research_lab/studies.py",
+      "source_path": "research_lab/studies.py",
+      "source_sha256": "1f31a40590fd16ceec1f95f868037b7bd5eefeb510ff7966671fd8a0b9644b61",
+      "release_sha256": "1f31a40590fd16ceec1f95f868037b7bd5eefeb510ff7966671fd8a0b9644b61",
+      "byte_identical": true
+    },
+    {
+      "release_path": "tests/test_analysis.py",
+      "source_path": "tests/test_analysis.py",
+      "source_sha256": "39ec889de4b14670dfa6371ceaa0c784f31c731fd8df9d361f3debba096bbf8b",
+      "release_sha256": "39ec889de4b14670dfa6371ceaa0c784f31c731fd8df9d361f3debba096bbf8b",
+      "byte_identical": true
+    },
+    {
+      "release_path": "tests/test_engine.py",
+      "source_path": "tests/test_engine.py",
+      "source_sha256": "07b73efa1bae4076f9077cf3b8653f7b91cf25580bd5308c0d54b2639149af6b",
+      "release_sha256": "07b73efa1bae4076f9077cf3b8653f7b91cf25580bd5308c0d54b2639149af6b",
+      "byte_identical": true
+    },
+    {
+      "release_path": "tests/test_meno2_campaign.py",
+      "source_path": "tests/test_meno2_campaign.py",
+      "source_sha256": "6ad5e1d63d0c95ad85b6844f325d7f5f1d4144eac9fe81cbaccd281585394af6",
+      "release_sha256": "6ad5e1d63d0c95ad85b6844f325d7f5f1d4144eac9fe81cbaccd281585394af6",
+      "byte_identical": true
+    },
+    {
+      "release_path": "tests/test_meno2_observatory.py",
+      "source_path": "tests/test_meno2_observatory.py",
+      "source_sha256": "75657d1dc9e8f5d5cc92d67baf27aa41bdb4f2def3a4e89cc6e595d74fed5931",
+      "release_sha256": "75657d1dc9e8f5d5cc92d67baf27aa41bdb4f2def3a4e89cc6e595d74fed5931",
+      "byte_identical": true
+    },
+    {
+      "release_path": "tests/test_meno2_scoring.py",
+      "source_path": "tests/test_meno2_scoring.py",
+      "source_sha256": "f4a68bec2f9b231604a50097bf6288547fd04d8aa1c66aed6dd80dc91a05897a",
+      "release_sha256": "f4a68bec2f9b231604a50097bf6288547fd04d8aa1c66aed6dd80dc91a05897a",
+      "byte_identical": true
+    },
+    {
+      "release_path": "tests/test_meno2_suite.py",
+      "source_path": "tests/test_meno2_suite.py",
+      "source_sha256": "68197223e06605bf11ce39eafd5e9b047e065743da2ec9d121a385627bcc781b",
+      "release_sha256": "68197223e06605bf11ce39eafd5e9b047e065743da2ec9d121a385627bcc781b",
+      "byte_identical": true
+    },
+    {
+      "release_path": "tests/test_meno2_worlds.py",
+      "source_path": "tests/test_meno2_worlds.py",
+      "source_sha256": "1e8d0dc850f4c91a6f888f143442f3e027de99db643bebc6369464ad982bf08f",
+      "release_sha256": "1e8d0dc850f4c91a6f888f143442f3e027de99db643bebc6369464ad982bf08f",
+      "byte_identical": true
+    },
+    {
+      "release_path": "tests/test_openai.py",
+      "source_path": "tests/test_openai.py",
+      "source_sha256": "5476d8e5f71eea7abab9cc7f538232c0916b7bad781ab6516a3695ad77a18c11",
+      "release_sha256": "5476d8e5f71eea7abab9cc7f538232c0916b7bad781ab6516a3695ad77a18c11",
+      "byte_identical": true
+    },
+    {
+      "release_path": "tests/test_providers.py",
+      "source_path": "tests/test_providers.py",
+      "source_sha256": "42b648ef887f0dac60de2c4f158e6d9450bdcdccef55833736e1d7dc734f62e4",
+      "release_sha256": "42b648ef887f0dac60de2c4f158e6d9450bdcdccef55833736e1d7dc734f62e4",
+      "byte_identical": true
+    },
+    {
+      "release_path": "tests/test_studies.py",
+      "source_path": "tests/test_studies.py",
+      "source_sha256": "450995a24f0fdaaeec0f774b1bf662c6c94c8dc8f9e5909d1245db1b0f678f43",
+      "release_sha256": "450995a24f0fdaaeec0f774b1bf662c6c94c8dc8f9e5909d1245db1b0f678f43",
+      "byte_identical": true
+    }
+  ]
+}

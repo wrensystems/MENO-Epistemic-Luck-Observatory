@@ -1,0 +1,10 @@
+{
+  "campaign": "C",
+  "regime": "I",
+  "seed": 20261116,
+  "blocks": 1,
+  "mechanisms": ["defective_sensors"],
+  "arms": ["exact_facts", "structured_audit"],
+  "bootstrap_replicates": 100,
+  "max_cost_usd": 0
+}

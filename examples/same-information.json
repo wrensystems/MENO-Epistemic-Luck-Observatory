@@ -1,0 +1,12 @@
+{
+  "campaign": "C",
+  "regime": "I",
+  "seed": 20261115,
+  "blocks": 8,
+  "repetitions": 1,
+  "threshold": "0.95",
+  "bootstrap_replicates": 2000,
+  "mode": "pilot",
+  "analysis_status": "exploratory",
+  "max_cost_usd": 0
+}

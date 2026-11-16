@@ -1,0 +1,14 @@
+{
+  "campaign": "D",
+  "regime": "II",
+  "seed": 20261116,
+  "blocks": 1,
+  "mechanisms": ["defective_sensors"],
+  "world_options": {"reliability": "0.99", "target_prior": "0.5"},
+  "repetitions": 1,
+  "threshold": "0.95",
+  "bootstrap_replicates": 2000,
+  "mode": "pilot",
+  "analysis_status": "exploratory",
+  "max_cost_usd": 0
+}
